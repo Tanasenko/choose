@@ -1,0 +1,82 @@
+/* 300 */
+
+@font-face {
+  font-family: "MuseoSansCyrl00";
+  src: local("MuseoSansCyrl"),
+    url("../../fonts/MuseoSansCyrl-300.ttf") format("truetype"),
+    url("../../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/MuseoSansCyrl-300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* 700 */
+
+@font-face {
+  font-family: "MuseoSansCyrl700";
+  src: local("MuseoSansCyrl"),
+    url("../../fonts/MuseoSansCyrl-700.ttf") format("truetype"),
+    url("../../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"),
+    url("../../fonts/MuseoSansCyrl-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Sans Serif", "MuseoSansCyrl300", sans-serif;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000;
+  height: 100%;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  margin-top: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 95%;
+  max-width: 1170px;
+  margin: 0 auto;
+}

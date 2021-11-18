@@ -1,0 +1,74 @@
+.hello {
+  display: flex;
+  flex-direction: column;
+  background-color: #7000ff;
+  background-image: url("../../img/hello/girl.png");
+  background-repeat: no-repeat;
+  background-position: 80% 100%;
+}
+
+.hello__title {
+  width: 52%;
+  max-width: 657px;
+  margin: 125px 0 28px;
+  font-size: 60px;
+  color: #fff;
+}
+
+.hello__subtitle {
+  width: 52%;
+  max-width: 471px;
+  font-size: 23px;
+  color: #fff;
+  max-width: 471px;
+  margin-bottom: 48px;
+}
+
+.hello__btn {
+  font-family: "MuseoSansCyrl700";
+  background: #fff;
+  color: #7000ff;
+  margin-bottom: 60px;
+  width: 25%;
+}
+
+@media (max-width: 1100px) {
+  .hello {
+    background-position: 90% 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hello {
+    background-position: 50% 100%;
+    background-size: 40%;
+  }
+
+  .hello__title {
+    width: 95%;
+    margin-top: 48px;
+  }
+
+  .hello__subtitle {
+    width: 95%;
+  }
+
+  .hello__btn {
+    width: 100%;
+    margin-bottom: 376px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hello__title {
+    font-size: 30px;
+  }
+
+  .hello__subtitle {
+    font-size: 16px;
+  }
+
+  .hello__btn {
+    margin-bottom: 240px;
+  }
+}
